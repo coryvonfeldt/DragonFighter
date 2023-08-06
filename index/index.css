@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #313131;
+    color: #d1d1d1;
+    font-family: 'Lugrasimo', cursive;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.gameContainer {
+    margin: 4rem auto;
+    width: 80%;
+    border: 2px solid #d1d1d1;
+    border-radius: 0.5rem;
+}
+
+.statsContainer {
+    margin: 0rem auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #d1d1d1;
+}
+
+.statsContainer h3 {
+    margin: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.xpText {
+    color: rgb(39, 200, 39);
+}
+
+.vitalityText {
+    color: red;
+}
+
+.goldText {
+    color: gold;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    margin: 2rem 1.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 0.8rem;
+    color: #d1d1d1;
+    background-color: #313131;
+    border: 2px solid #d1d1d1;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.buttonContainer button:hover {
+    color: #313131;
+    background-color: #d1d1d1;
+}
+
+.monsterStats {
+    display: none;
+    justify-content: center;
+}
+
+.monsterStats h3 {
+    margin: 1.5rem;
+}
+
+.gameText {
+    margin: 0 auto 2rem;
+    text-align: center;
+    width: 90%;
+    line-height: 2.5rem;
+}
